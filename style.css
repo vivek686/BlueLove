@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL SCREEN */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* LIGHT BLUE BACKGROUND */
+body {
+  background: #dbeafe; /* LIGHT BLUE */
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CENTER CONTENT */
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TEXT */
+h1 {
+  color: #1e3a8a;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.yes-button {
+  background-color: #22c55e;
+  color: white;
+}
+
+.no-button {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* CUTE SECTION */
+.cute {
+  margin-top: 30px;
+  position: relative;
+}
+
+.heart {
+  font-size: 28px;
+  animation: float 1.5s infinite;
+}
+
+/* HEART FLOAT */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+img {
+  width: 160px;
+  max-width: 80%;
+}
